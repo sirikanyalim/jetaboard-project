@@ -10,7 +10,6 @@ class FlightResult extends Component {
   constructor() {
     super();
     this.state = {dataflight:dataflight};
-    this.myvar = 'some text';
   }
   render () {
     console.log(this.state.dataflight);
@@ -38,7 +37,6 @@ class FlightResult extends Component {
                   this.state.dataflight.flights.map(function(flight, i){
                     let arrivalTime = moment(flight.arrival.dateTime)
                     let departureTime = moment(flight.departure.dateTime)
-                    //let duration = arrivalTime.diff(departureTime);
                     let duration = moment.duration((arrivalTime.diff(departureTime)/1000),"seconds").format("h[h] m[m]");
                     return <li key={i}>
                       <dl className="m-0">
