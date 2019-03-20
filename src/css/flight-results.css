@@ -1,0 +1,59 @@
+
+/*Elements*/
+.btn-blue{
+    box-shadow: inset 0 1px 0 0 #54a3f7;
+    background-color: #0087bf;
+    background: -moz-linear-gradient(top,#0087bf 5%,#005ba8 100%);
+    background: -webkit-linear-gradient(top,#0087bf 5%,#005ba8 100%);
+    background: linear-gradient(to bottom,#0087bf 5%,#005ba8 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#0087bf',endColorstr='#005ba8',GradientType=0);
+    border-radius: 4px;
+    border: 1px solid transparent;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    padding: 7px 24px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #154682;
+    cursor: pointer;
+  }
+  .btn-viewflight{
+    width:135px;
+  }
+  .currency {
+    font-size: 15px;
+    letter-spacing: -1px;
+  }
+  
+  .price{
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 1;
+    color: #1c395a;
+  }
+  
+  ul.ulnonlist{
+    list-style: none;
+    margin: 12px 0 0 0;
+    padding: 0;
+  }
+  
+  ul.ulnonlist li dt , ul.ulnonlist li dd{
+    float: left;
+  }
+  ul.ulnonlist li dt{
+    font-weight: 700;
+  }
+  
+  .flight-list dd.city{
+    width: 225px;
+  }
+  .baggage-list .item{
+    border-right:1px solid #ddd ;
+    padding-right: 1em;
+    padding-left: 1em;
+  }
+  
+  
