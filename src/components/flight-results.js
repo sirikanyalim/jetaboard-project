@@ -12,7 +12,7 @@ class FlightResult extends Component {
     super();
     this.state = {dataflight:dataflight};
   }
-  
+
   render () {
     return (
       <div>
@@ -78,7 +78,7 @@ class FlightResult extends Component {
                     })}
                 </ul>
                 <p>
-                  <small className="mr-3"><i className="fas fa-suitcase" title="Carry on Baggage"></i> = Carry on Baggage</small>
+                  <small className="mr-3"><i className="fas fa-suitcase" title="Carry on Baggage"></i> = Carry-on Baggage</small>
                   <small className="mr-3"><i className="fas fa-luggage-cart" title="Carry on Baggage"></i> = Checked Baggage</small>
                   <small className="mr-3">N/A = Contact us for more information </small>
                 </p>
