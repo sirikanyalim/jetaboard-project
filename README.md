@@ -37,7 +37,7 @@ Also, be sure to have `git` available in your PATH, `npm` might need it.
 
 ## Install
 
-    $ git clone https://sirikanyalim@bitbucket.org/sirikanyalim/jetaboard-project.git
+    $ git clone https://github.com/sirikanyalim/jetaboard-project.git
     $ cd jetaboard-project
     
     
