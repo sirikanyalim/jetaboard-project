@@ -60,7 +60,7 @@ class FlightResult extends Component {
             </div>
             <div className="container-flex">
               <div className="baggage border-grey p-3 w-100 mt-3 text-left">
-                <i className="fas fa-suitcase"></i> Your Baggage information
+                <strong>Your Baggage information</strong>
                 <hr className="m-0 border-grey"/>
                 <ul className="ulnonlist container-flex">
                   {

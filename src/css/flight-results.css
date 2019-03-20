@@ -1,5 +1,7 @@
 
-/*Elements*/
+.baggage{
+  background-color: #f7fbfc;
+}
 .btn-blue{
     box-shadow: inset 0 1px 0 0 #54a3f7;
     background-color: #0087bf;
@@ -51,9 +53,12 @@
     width: 225px;
   }
   .baggage-list .item{
-    border-right:1px solid #ddd ;
+    border: 1px solid #efefef;
     padding-right: 1em;
     padding-left: 1em;
+    margin: .1em;
+    border-radius: 3px;
+    background-color: #fff;
   }
   
   
